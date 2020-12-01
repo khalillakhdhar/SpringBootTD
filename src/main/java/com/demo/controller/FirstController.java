@@ -13,4 +13,9 @@ public class FirstController {
 	{
 		return "<h1>welcome to the spring boot framework</h1>";
 	}
+	@RequestMapping("hello")
+	public String message()
+	{
+		return "spring boot is the best spring version for API";
+	}
 }
