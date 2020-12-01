@@ -11,7 +11,7 @@ public class FirstController {
 	@RequestMapping("")
 	public String hello()
 	{
-		return "<h1>welcome to the spring boot framework</h1>";
+		return "<h1>welcome to the spring boot framework</h1><br><a href='hello'> découvrez spring boot</a>";
 	}
 	@RequestMapping("hello")
 	public String message()
