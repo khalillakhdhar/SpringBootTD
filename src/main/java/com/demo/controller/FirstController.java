@@ -23,6 +23,8 @@ public class FirstController {
 	@GetMapping("more")
 	public ModelAndView page()
 	{
+		ModelAndView mv=new ModelAndView("liste.html");
+		return mv;
 		
 		
 	}
